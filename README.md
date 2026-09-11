@@ -48,8 +48,8 @@ The versioned wire scheme is `:paillier-phe-v1`.
 ## Verify
 
 ```sh
-clojure -M:test
-clojure -M:lint
+kbb -M:test
+kbb -M:lint
 ```
 
 The tests cover signed and randomized encryption, exact homomorphic operations,
